@@ -1,0 +1,56 @@
+.person{
+  border-radius: 100%;
+  width:150px;
+  height:150px;
+}
+.side {
+  width: 15%;
+  background-color: #ccffff;
+  display: inline-block;
+}
+
+.sidebar{
+  width: 700px;
+  height: 200px;
+  background-color:  #f1f1f1;
+  display: inline-block;
+  position: fixed;
+  left: 300px;
+  padding-left: 20px;
+
+}
+.blog{
+  width: 15%;
+  height:200px;
+  background-color:  #ffffcc;
+  float: right;
+
+
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.about{
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.about) {
+  background-color: #555;
+  color: white;
+}
+li a.blogs{
+  background-color: #4CAF50;
+  color: white;
+}
+.top{
+  background-color: #ffffcc;
+}
+.sidebar:target{
+  display: inline-block !important;
+
+
+}
